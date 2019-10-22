@@ -10,12 +10,8 @@ class Pet
     @mood = 10
     @predictable = 6
     @adroit = 3
-#    @state = Array.new(10, 'is good to go') << 'has high temperature' << 'one horseshoe got loose' << 'has an injury'
-
     @occasion = Array.new(3, 'is good to go') << 'has high temperature' << 'has got one loose horseshoe' << 'has an injury' << ' is smelling tree blossom' << ' is grazing grass' << ' is kicking hooves impatiently'
-
     @environment = 10
-#    @occasion = [' is smelling tree blossom', ' is grazing grass', ' is kicking hooves impatiently']
     @auto_system = false
 
     puts '~' * 40
